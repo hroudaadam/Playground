@@ -6,7 +6,8 @@ function setup() {
   canvas = createCanvas(720, 400);
 
   ground = new Ground(30);
-  sprite = new Sprite(360, 50, 5);
+  sprite = new Sprite(360, 200, 5);
+  //sprite = new Sprite(120, 200, 10);
 }
 
 function draw() { 
@@ -14,10 +15,8 @@ function draw() {
   ground.render();   
   
   let gravity = new Vector(0,3);
-  //let wind = new Vector(0.2,0);
 
   sprite.applyForce(gravity);
-  //sprite.applyForce(wind);
   sprite.update(); 
   sprite.render();
   sprite.checkEdges();
@@ -46,14 +45,14 @@ class Sprite {
   }
 
   applyForce(force) {
-      var f = Vector.Div(force, this.mass);
+      var f = Vector.Div(force, this.mass); // 2nd Newton's law
       this.acc = Vector.Add(this.acc, f);
   }
 
   checkEdges() {
       //bottom 
       if (this.pos.y > ground.pos.y - this.size) {
-        this.vel.y = this.vel.y * (-0.7);
+        this.vel.y = this.vel.y * (-0.4);
         this.pos.y = ground.pos.y - this.size;
       }
   }

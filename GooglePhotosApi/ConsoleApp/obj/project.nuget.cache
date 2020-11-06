@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jfNpbt0t6NAgdQL3x8eFGGzUKmJS9hDL4bZ6O8vSE9kpeOVNJPdOPkyi3B0zob/qYveoA2A7Ez+Q8HgBvyOhsQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programování\\Playground\\GooglePhotosApi\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

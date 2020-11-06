@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <title>
+        Wed design - projekt
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body class="body-background">
+    <header class="app-bar">
+        <h1 class="brand"><a href="index.html">MELL.CZ</a> </h1>
+
+        <nav class="app-nav">
+            <a class="" href="catalog.html">Katalog</a>
+
+            <a class="" href="">Kontakty</a>
+
+            <a class="active" href="cart.html">Košík</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="content-box">
+            <header class="cart-header">
+                <nav class="cart-nav">
+                    <a class="cart-nav-item" href="./cart.html">Obsah</a>
+                    <span class="cart-nav-item-separator">-</span>
+                    <a class="cart-nav-item active" href="./cart-customer.html">Údaje</a>
+                    <span class="cart-nav-item-separator">-</span>
+                    <a class="cart-nav-item" href="./cart-payment.html">Dokončení</a>
+                </nav>
+            </header>
+
+            <form class="cart-customer-form">
+                <fieldset>
+                    <input class="form-text-input" type="text" id="firstName" placeholder="Jméno"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="text" id="lastName" placeholder="Příjmení"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="email" id="email" placeholder="Email"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="tel" id="phone" placeholder="Telefon"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="text" id="street" placeholder="Ulice"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="text" id="city" placeholder="Město"></input>
+                </fieldset>
+
+                <fieldset class="form-field">
+                    <input class="form-text-input" type="text" id="zip" placeholder="PSČ"></input>
+                </fieldset>
+
+                <input class="button center" type="submit" value="Pokračovat"></input>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
