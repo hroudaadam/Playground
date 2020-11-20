@@ -1,2 +1,0 @@
-ClientId - 651163141768-pb16q2qrd1vg0pudvpo88lo4lkr6rgj2.apps.googleusercontent.com
-ClientSec - VOz3P29s91gK6rMWdjlLDJmv
