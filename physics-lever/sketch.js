@@ -65,7 +65,7 @@ function setup() {
 function draw() {
   // console.log(f1X);
 
-  background(color("darkseagreen"));
+  background(color("lightgrey"));
   drawLabel("F₁ = " + f1.toFixed(2) + " N", 25, 50, color("red"));
   drawLabel("F₂ = " + f2.toFixed(2) + " N", 650, 50, color("blue"));
   drawLabel("a₁ = " + a1.toFixed(2) + " m", 25, 80, color("darkorange"));
