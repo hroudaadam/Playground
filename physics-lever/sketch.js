@@ -12,9 +12,9 @@ var f1=100;
 var f2=100;
 var a1=5;
 var a2=5;
-var f1X=()=> {return map(a1, 0.5, 5, 430, 180); };
+var f1X=()=> {return map(a1, 0.5, 5, 430, 160); };
 var f1L=()=> {return map(f1, 100, 1000, 50, 230); };
-var f2X=()=> {return map(a2, 0.5, 5, 470, 720); };
+var f2X=()=> {return map(a2, 0.5, 5, 470, 740); };
 var f2L=()=> {return map(f2, 100, 1000, 50, 230); };
 
 
@@ -70,20 +70,20 @@ function draw() {
   drawLabel("F₂ = " + f2.toFixed(2) + " N", 650, 50, color("blue"));
   drawLabel("a₁ = " + a1.toFixed(2) + " m", 25, 80, color("darkorange"));
   drawLabel("a₂ = " + a2.toFixed(2) + " m", 650, 80, color("blueviolet"));
-  drawLabel("M₁ = 500 N.m", 25, 110, color("sienna"));
-  drawLabel("M₂ = 500 N.m", 650, 110, color("midnightblue"));
+  drawLabel("M₁ = 500 N.m", 25, 110, color("black"));
+  drawLabel("M₂ = 500 N.m", 650, 110, color("black"));
 
-  drawLabel("F₁", 380, 50, color("red"), 22);
-  drawLabel("x", 405, 50, color("black"), 22);
-  drawLabel("a₁", 420, 50, color("darkorange"), 22);
+  drawLabel("F₁", 380, 50, color("black"), 22);
+  drawLabel(".", 405, 50, color("black"), 26);
+  drawLabel("a₁", 420, 50, color("black"), 22);
   drawLabel("=", 450, 50, color("black"), 22);
-  drawLabel("F₂", 475, 50, color("red"), 22);
-  drawLabel("x", 500, 50, color("black"), 22);
-  drawLabel("a₂", 520, 50, color("darkorange"), 22);
+  drawLabel("F₂", 475, 50, color("black"), 22);
+  drawLabel(".", 500, 50, color("black"), 26);
+  drawLabel("a₂", 515, 50, color("black"), 22);
 
-  drawLabel("M₁", 420, 80, color("sienna"), 22);
+  drawLabel("M₁", 420, 80, color("black"), 22);
   drawLabel("=", 450, 80, color("black"), 22);
-  drawLabel("M₂", 475, 80, color("midnightblue"), 22);
+  drawLabel("M₂", 470, 80, color("black"), 22);
 
 
   drawLabel("Adam Hrouda © 2021", 700, 580, color("black"), 18);
