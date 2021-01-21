@@ -1,8 +1,3 @@
-// Teachable Machine
-// The Coding Train / Daniel Shiffman
-// https://thecodingtrain.com/TeachableMachine/1-teachable-machine.html
-// https://editor.p5js.org/codingtrain/sketches/PoZXqbu4v
-
 const ww = 900;
 const wh = 600;
 const aClickChng = 0.5;
